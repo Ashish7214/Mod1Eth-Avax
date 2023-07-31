@@ -6,6 +6,18 @@ This is a simple Ethereum smart contract for handling payments, deposits, and wi
 
 The `PaymentContract` is designed to manage funds by allowing users to deposit Ether into the contract and the contract owner to withdraw funds when needed.
 
+## Features
+
+- **Secure Transaction Handling:** The contract uses `require()`, `assert()`, and `revert()` statements to ensure secure transaction handling and validate user inputs.
+
+- **Deposit Function with Validation:** The `deposit` function allows users to deposit Ether into the contract. It uses `require()` to check if the deposit value is greater than zero, ensuring valid deposit amounts.
+
+- **Internal Consistency Check:** The `deposit` function also uses `assert()` to verify the internal consistency of the contract by comparing the contract's balance to the `totalBalance`.
+
+- **Withdraw Function with Validation:** The `withdraw` function allows the contract owner to withdraw funds. It uses `require()` to check if the contract has enough balance for withdrawal and prevents overdrawing.
+
+- **Custom Conditions Handling:** The `withdraw` function further uses `revert()` to handle custom conditions. If the sender is not the contract owner, the transaction reverts, ensuring that only the owner can withdraw funds.
+
 ## Getting Started
 
 To interact with the `PaymentContract` on Remix, follow the instructions below.
