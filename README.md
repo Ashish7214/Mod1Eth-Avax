@@ -71,6 +71,16 @@ contract PaymentContract {
 }
 ```
 
-Compile the PaymentContract by selecting the Solidity compiler version and clicking on the "Compile" button in Remix.
+4. Compile the PaymentContract by selecting the Solidity compiler version and clicking on the "Compile" button in Remix.
 
-Deploy the PaymentContract to the Ethereum network of your choice. You can use the Remix's "Deploy & Run Transactions" tab to deploy the contract using one of the deployment environments (e.g., JavaScript VM, Injected Web3).
+5. Deploy the PaymentContract to the Ethereum network of your choice. You can use the Remix's "Deploy & Run Transactions" tab to deploy the contract using one of the deployment environments (e.g., JavaScript VM, Injected Web3).
+
+## Author
+
+**Ashish Kumar**
+
+- GitHub: [github.com/Ashish7214](https://github.com/Ashish7214)
+- Email: 22bcs80055@cuchd.in
+
+## License
+This project is licensed under the [MIT License](LICENSE).
